@@ -7,4 +7,12 @@
 local ffi = require( "ffi" )
 io.input( "gl3.h" )
 ffi.cdef( io.read( "*all" ) )
-return ffi.load( "OpenGL.framework/OpenGL" )
+
+local name = "opengl32"
+if ( jit.os == "OSX" ) then
+	name = "OpenGL.framework/OpenGL"
+else
+	name = "GL"
+end
+
+return ffi.load( name )
