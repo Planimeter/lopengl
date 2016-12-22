@@ -5,6 +5,6 @@
 --============================================================================--
 
 local ffi = require( "ffi" )
-io.input( "gl3.h" )
+io.input( "glcorearb.h" )
 ffi.cdef( io.read( "*all" ) )
 return ffi.load( "OpenGL.framework/OpenGL" )
