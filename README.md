@@ -1,6 +1,14 @@
 # lopengl
 LuaJIT FFI bindings for OpenGL
 
+## Update
+
+### Get `#defines`
+
+```bash
+< glcorearb.h grep "^#define" > glcorearb.defines.h
+```
+
 ## License
 
 The MIT License
