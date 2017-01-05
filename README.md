@@ -6,7 +6,7 @@ LuaJIT FFI bindings for OpenGL
 ### Get `#defines`
 
 ```bash
-< glcorearb.h grep "^#define" > glcorearb.defines.h
+grep "#define" glcorearb.h > glcorearb.defines.h
 ```
 
 ## License
