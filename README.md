@@ -2,15 +2,12 @@
 LuaJIT FFI bindings for OpenGL
 
 ## Update
-
 ### Get `#defines`
-
 ```bash
 grep "#define" glcorearb.h > glcorearb.defines.h
 ```
 
 ## License
-
 The MIT License
 
 Copyright (c) 2017 Planimeter. http://planimeter.org
